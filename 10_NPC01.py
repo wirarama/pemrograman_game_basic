@@ -71,8 +71,8 @@ class EnemyNPC:
         
         self.state = NPCState.PATROL
         
-        self.chase_radius = 250
-        self.attack_radius = 45
+        self.chase_radius = 350
+        self.attack_radius = 100
         self.waypoints = waypoints
         self.current_wp_index = 0
         
